@@ -8,9 +8,9 @@ public class WelcomePage {
 
     WelcomePage(String userId) {
 
-        wLabel.setBounds(0,0,200,35);
+        wLabel.setBounds(0,0,700,35);
         wLabel.setFont(new Font(null, Font.ITALIC, 25));
-        wLabel.setText("Welcome " + userId);
+        wLabel.setText("Welcome " + userId + "!");
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(420, 420);
