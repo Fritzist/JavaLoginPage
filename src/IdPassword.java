@@ -8,10 +8,8 @@ public class IdPassword {
 
     IdPassword() {
 
-        System.out.println("Create your username: ");
         String username = input.nextLine();
 
-        System.out.println("Create your password: ");
         String password = input.nextLine();
 
         logininfo.put(username, password);
